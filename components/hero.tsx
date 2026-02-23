@@ -11,8 +11,8 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('/images/high1.webp')" }}>
-      <div className="absolute inset-0 bg-black/55" />
+      style={{ backgroundImage: "url('/images/seashore4.png')" }}>
+      <div className="absolute inset-0 bg-black/50" />
       <div className={`relative z-10 text-center px-4 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
         <h1 className="text-5xl lg:text-7xl font-bold text-white mb-3">Seashore</h1>
         <p className="text-2xl lg:text-3xl text-white/90 mb-4 font-light">هايد بارك سي شور</p>

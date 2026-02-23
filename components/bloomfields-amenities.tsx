@@ -30,7 +30,7 @@ export default function BloomfieldsAmenities() {
         </div>
 
         <div className="relative aspect-[16/7] overflow-hidden mb-12 shadow-2xl">
-          <Image src="/images/high3-2.webp" alt="مميزات Seashore Hyde Park" fill className="object-cover" sizes="100vw" />
+          <Image src="/images/seashore3.png" alt="مميزات Seashore Hyde Park" fill className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-black/20" />
         </div>
 
@@ -45,7 +45,7 @@ export default function BloomfieldsAmenities() {
           ))}
         </div>
 
-        {/* CTA في المميزات */}
+        {/* CTA */}
         <div className="bg-muted/30 border border-border p-8 lg:p-12 flex flex-col lg:flex-row items-center justify-between gap-6">
           <div className="text-right">
             <h3 className="text-2xl font-bold text-foreground mb-2">اكتشف كل مميزات المشروع</h3>

@@ -8,12 +8,12 @@ export default function BloomfieldsGallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
 
   const images = [
-    { src: "/images/high1.webp", alt: "Seashore Hyde Park" },
-    { src: "/images/high3.webp", alt: "Seashore Hyde Park" },
-    { src: "/images/high3-2.webp", alt: "Seashore Hyde Park" },
-    { src: "/images/high4.webp", alt: "Seashore Hyde Park" },
-    { src: "/images/high5.webp", alt: "Seashore Hyde Park" },
-    { src: "/images/high6.webp", alt: "Seashore Hyde Park" },
+    { src: "/images/seashore1.png", alt: "Seashore Hyde Park" },
+    { src: "/images/seashore2.png", alt: "Seashore Hyde Park" },
+    { src: "/images/seashore3.png", alt: "Seashore Hyde Park" },
+    { src: "/images/seashore4.png", alt: "Seashore Hyde Park" },
+    { src: "/images/seashore5.png", alt: "Seashore Hyde Park" },
+    { src: "/images/seashore-masterplan.jpg", alt: "Seashore Hyde Park Master Plan" },
   ]
 
   return (

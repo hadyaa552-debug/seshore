@@ -38,7 +38,7 @@ export default function BloomfieldsLocation() {
           </div>
 
           <div className="relative aspect-[4/3] overflow-hidden shadow-2xl">
-            <Image src="/images/high6.webp" alt="موقع Seashore Hyde Park" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+            <Image src="/images/seashore2.png" alt="موقع Seashore Hyde Park" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
           </div>
         </div>
       </div>

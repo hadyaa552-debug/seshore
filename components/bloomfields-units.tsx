@@ -7,10 +7,10 @@ export default function BloomfieldsUnits() {
   const whatsappMessage = encodeURIComponent("مرحباً، أنا مهتم بمشروع Seashore Hyde Park الساحل الشمالي وأريد معرفة المزيد من التفاصيل")
 
   const units = [
-    { type: "شاليهات", subtype: "Chalets", desc: "شاليهات فاخرة بإطلالات مباشرة على البحر المتوسط، مساحات تبدأ من 70 م²", image: "/images/high5.webp" },
-    { type: "توين هاوس", subtype: "Twin Houses", desc: "توين هاوس بتصميمات عصرية مستوحاة من فلوريدا، مساحات من 188 إلى 266 م²", image: "/images/high4.webp" },
-    { type: "تاون هاوس", subtype: "Townhouses", desc: "تاون هاوس فاخر بمساحات تبدأ من 177 م² مع حدائق خاصة وإطلالات بحرية", image: "/images/high1.webp" },
-    { type: "Town Island", subtype: "Town Island", desc: "وحدات Town Island المميزة تبدأ من 168 م² بتصميم معماري استثنائي", image: "/images/high3.webp" },
+    { type: "شاليهات", subtype: "Chalets", desc: "شاليهات فاخرة بإطلالات مباشرة على البحر المتوسط، مساحات تبدأ من 70 م²", image: "/images/seashore1.png" },
+    { type: "توين هاوس", subtype: "Twin Houses", desc: "توين هاوس بتصميمات عصرية مستوحاة من فلوريدا، مساحات من 188 إلى 266 م²", image: "/images/seashore2.png" },
+    { type: "تاون هاوس", subtype: "Townhouses", desc: "تاون هاوس فاخر بمساحات تبدأ من 177 م² مع حدائق خاصة وإطلالات بحرية", image: "/images/seashore3.png" },
+    { type: "Town Island", subtype: "Town Island", desc: "وحدات Town Island المميزة تبدأ من 168 م² بتصميم معماري استثنائي", image: "/images/seashore5.png" },
   ]
 
   return (

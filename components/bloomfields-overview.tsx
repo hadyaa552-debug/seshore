@@ -35,10 +35,10 @@ export default function BloomfieldsOverview() {
 
           <div className="grid grid-cols-2 gap-4 order-1 lg:order-2">
             <div className="relative aspect-[3/4] overflow-hidden">
-              <Image src="/images/high3.webp" alt="Seashore Hyde Park" fill className="object-cover" sizes="50vw" />
+              <Image src="/images/seashore1.png" alt="Seashore Hyde Park" fill className="object-cover" sizes="50vw" />
             </div>
             <div className="relative aspect-[3/4] overflow-hidden mt-8">
-              <Image src="/images/high1.webp" alt="Seashore Hyde Park" fill className="object-cover" sizes="50vw" />
+              <Image src="/images/seashore5.png" alt="Seashore Hyde Park" fill className="object-cover" sizes="50vw" />
             </div>
           </div>
         </div>
