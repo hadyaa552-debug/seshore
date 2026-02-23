@@ -1,19 +1,16 @@
 "use client"
-
 import type React from "react"
 import { useState } from "react"
 import { useToast } from "@/hooks/use-toast"
-
 export default function ContactForm() {
   const [loading, setLoading] = useState(false)
   const { toast } = useToast()
   const [formData, setFormData] = useState({ name: "", phone: "", unitType: "" })
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
     try {
-      const response = await fetch("https://formsubmit.co/ajax/ahany9710@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/leads@grandeur-spaces.com", {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
@@ -35,7 +32,6 @@ export default function ContactForm() {
       setLoading(false)
     }
   }
-
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <select value={formData.unitType}
